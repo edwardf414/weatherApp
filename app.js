@@ -36,7 +36,7 @@ app.post("/", (req, res) => {
             //reponse
             res.write(`<h1>It is Current ${description}</h1>`);
             res.write(`<h1>The temperature in ${query} is ${temp} degrees.</h1>`);
-            res.write (`<img src="http://openweathermap.org/img/wn/${icon}@2x.png" alt="Weather Icon">`)
+            res.write (`<img src="http://openweathermap.org/img/wn/${icon}@2x.png" alt="Weather Icon Image">`)
             res.send();
         });
     });
